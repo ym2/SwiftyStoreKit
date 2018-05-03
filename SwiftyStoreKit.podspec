@@ -16,4 +16,7 @@ Pod::Spec.new do |s|
   s.screenshots  = ["https://github.com/bizz84/SwiftyStoreKit/raw/master/Screenshots/Preview.jpg"]
 
   s.requires_arc = true
+
+  s.static_framework = true
+
 end
